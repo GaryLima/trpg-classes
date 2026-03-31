@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: tormenta-trpg
+    data:
+        mongodb:
+            username: glage
+            password: glage
+            host: host.docker.internal
+            port: 27017
+            database: classe
+            authentication-database: admin
+server:
+    port: 8083
